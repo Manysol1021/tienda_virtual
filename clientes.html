@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <meta charset - "utf-8">
+    <title>Clientes</title>
+</head>
+
+<body>
+    <h1>Lista de Clientes</h1>
+    <table id="menu">
+        <tr>
+            <th><a href="index.html">Inicio</a></th>
+            <th><a href="productos.html">Productos</a> </th>
+            <th><a href="clientes.html">Clientes</a></th>
+            <th><a href="carrito.html">Carrito de compras</a></th>
+        </tr>
+    </table><br><br>
+    <div>
+        <form action="https://www.w3schools.com/action_page.php" method="GET" target="_blank">
+            <div>
+                <label>Identificación</label>
+                <!--<input type="text" id="identificacion" name="identificacion" value="Ingrese su numero de identificacion">-->
+                <input type="text" id="identificacion" name="identificacion" placeholder="Ingrese su numero de identificacion">
+            </div>
+            <div>
+                <label>Nombres</label>
+                <input type="text" id="nombres" name="nombres" placeholder="Ingrese su nombre">
+            </div>
+            <div>
+                <label>Apellidos</label>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Ingrese sus apellidos">
+            </div>
+            <div>
+                <label>Fecha de Nacimiento</label>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+            </div>
+            <div>
+                <label>Edad</label>
+                <input type="number" id="edad" name="edad" placeholder="Ingrese su edad">
+            </div>
+            <div>
+                <label>Correo Electrónico</label>
+                <input type="email" id="correo_electronico" name="correo_electronico" placeholder="Ingrese su correo electro&acuotenico">
+            </div>
+            <div>
+                <label>Foto</label>
+                <input type="file" id="foto" name="foto" accept=".png">
+            </div>
+            <div>
+                <label>He leido y acepto el tratamiento de mis datos</label>
+                <input type="checkbox" id="tratamiento_datos" name="tratamiento_datos" placeholder="Ingrese su nombre">
+            </div>
+            <div>
+                <input type="button" id="registrar" name="registrar" value="Registrar">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
