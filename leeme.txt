@@ -1,1 +1,6 @@
-Me falta mucho por aprender, hay que practicar mucho para aprender a manejar github de forma 
+Me falta mucho por aprender.
+Hay que practicar mucho para aprender a manejar github
+de forma correcta y eficiente, ya es una excelente herramienta para trabajar en equipo
+y para trabajar proyectos que se van modificando con el tiempo, ya que éste nos permite
+recuperar o volver a accdeder a versiones anteriores de cualquier parte o etapa del proceso
+de desarrollo de los diferentes archivos.
